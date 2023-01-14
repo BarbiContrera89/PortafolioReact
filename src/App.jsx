@@ -1,14 +1,19 @@
 import React from 'react';
 import './App.css';
 import Header from './components/header/Header';
+import Home from './components/home/Home'
+import About from './components/about/About';
 
-function App() {
-
-
+const App = () => {
   return (
-    <div className="App">
+    <>
       <Header />
-    </div>
+
+      <main className='main'>
+        <Home />
+        <About />
+      </main>
+    </>
   )
 }
 
