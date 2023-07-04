@@ -1,15 +1,20 @@
-import React from 'react'
+import React from "react"
 
 const Data = () => {
-    return (
-        <div className="home__data">
-            <h1 className='home__title'>Barbara Contrera🖐️</h1>
-            <h3 className='home__subtitle'>Front-end Developer</h3>
-            <p className='home__description'>I am a dedicated person and predisposed to learn new things every day for my personal and professional growth</p>
+  return (
+    <div className="home__data">
+      <h1 className="home__title">Barbara Contrera🖐️</h1>
+      <h3 className="home__subtitle">Full stack Developer</h3>
+      <p className="home__description">
+        Soy una persona dedicada y predispuesta a aprender cosas nuevas cada día
+        para mi crecimiento personal y profesional.
+      </p>
 
-            <a href="#contact" className='button button--flex'>Say Hello <i className="uil uil-message"></i></a>
-        </div>
-    )
+      <a href="#contact" className="button button--flex">
+        Di hola <i className="uil uil-message"></i>
+      </a>
+    </div>
+  )
 }
 
 export default Data
